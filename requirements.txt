@@ -1,0 +1,38 @@
+Python 3.13.1 (main, Jan 16 2025, 13:50:41) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pwd
+Traceback (most recent call last):
+  File "<python-input-0>", line 1, in <module>
+    pwd
+NameError: name 'pwd' is not defined. Did you forget to import 'pwd'?
+>>> pwd
+Traceback (most recent call last):
+  File "<python-input-1>", line 1, in <module>
+    pwd
+NameError: name 'pwd' is not defined. Did you forget to import 'pwd'?
+>>> cd
+Traceback (most recent call last):
+  File "<python-input-2>", line 1, in <module>
+    cd
+NameError: name 'cd' is not defined. Did you mean: 'id'?
+>>> dir
+<built-in function dir>
+>>> pip install --user request aiogram
+  File "<python-input-4>", line 1
+    pip install --user request aiogram
+        ^^^^^^^
+SyntaxError: invalid syntax
+>>> py install aiogram
+  File "<python-input-5>", line 1
+    py install aiogram
+       ^^^^^^^
+SyntaxError: invalid syntax
+>>> 
+>=3.20,<4
+httpx>=0.27,<1
+beautifulsoup4>=4.12,<5
+Pillow>=11,<13
+pypdf>=5,<7
+python-docx>=1.1,<2
+python-dotenv>=1.0,<2
+playwright>=1.50,<2
