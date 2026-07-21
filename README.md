@@ -11,17 +11,18 @@ Telegram bot that integrates with local Ollama instance for text generation, ima
 - 8GB VRAM recommended
 
 ## Required Models
+```bash
 ollama pull qwen2.5-coder:7b
 ollama pull qwen3-vl:4b
-
+```
 
 ## Installation
 
 1. Clone repository
 2. Install Python dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 3. Install Playwright browser:
-python -m playwright install chromium
+`python -m playwright install chromium`
 4. Copy `.env.example` to `.env` and configure:
 - TELEGRAM_TOKEN - your bot token
 - ADMIN_CHAT_ID - your Telegram ID
@@ -29,11 +30,11 @@ python -m playwright install chromium
 ## Running the Bot
 
 Windows:
-run_testovayapiqwen.bat
+run_bot.bat
 
 
 Linux/Mac:
-python testovayapiqwen.py
+python bot.py
 
 
 ## Features
